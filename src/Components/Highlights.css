@@ -1,0 +1,11 @@
+.dishContainer {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent line breaks for the inline-flex items */
+  margin-top: 10px; /* Adjust as needed */
+}
+
+.dishCard {
+  /* Your existing styles for each dish card */
+  margin-right: 20px; /* Adjust the spacing between dish cards */
+}
