@@ -7,7 +7,7 @@ const Header = () => {
       <header>
         Header
         <img src="" alt="logo" />
-        <Nav>Nav</Nav>
+        <Nav />
       </header>
     </>
   );

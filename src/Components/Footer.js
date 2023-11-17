@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "./Nav";
 
 const Footer = () => {
   return (
@@ -7,26 +8,7 @@ const Footer = () => {
         <img src="" alt="logo" />
         <div className="doormatNavigation">
           <h5>Doormat navigation</h5>
-          <ul>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/">About</a>
-            </li>
-            <li>
-              <a href="/">Menu</a>
-            </li>
-            <li>
-              <a href="/">Reservation</a>
-            </li>
-            <li>
-              <a href="/">Order online</a>
-            </li>
-            <li>
-              <a href="/">Login</a>
-            </li>
-          </ul>
+          <Nav />
         </div>
         <div className="contact">
           <h5>Contact</h5>
@@ -44,7 +26,6 @@ const Footer = () => {
           </ul>
         </div>
       </footer>
-      ;
     </>
   );
 };
