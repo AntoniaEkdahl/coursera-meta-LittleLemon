@@ -2,11 +2,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <>
       <nav>
-        <ul className="flex gap-7">
+        <ul className={props.className}>
           <li>
             <Link to="/">Home</Link>
           </li>
