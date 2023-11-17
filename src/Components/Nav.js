@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <>
       <nav>
-        <ul>
+        <ul className="flex gap-7">
           <li>
             <Link to="/">Home</Link>
           </li>

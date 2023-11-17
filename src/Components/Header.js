@@ -4,8 +4,7 @@ import Nav from "./Nav";
 const Header = () => {
   return (
     <>
-      <header>
-        Header
+      <header className=" mx-20 my-8 flex justify-evenly">
         <img src="" alt="logo" />
         <Nav />
       </header>
